@@ -6,4 +6,8 @@ document.getELementById('list').appendChild(li);
 
 document.getElementById('form').onsubmit = function(){
 window.alert(document.getELementById('form').word.value);
-}
+  return false;
+};
+
+ver message;
+if()
